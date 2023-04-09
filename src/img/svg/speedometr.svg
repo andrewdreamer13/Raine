@@ -1,0 +1,14 @@
+<svg id="speedometr" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.3398 41.46C43.5198 40.04 44.5198 38.48 45.3398 36.8C46.7598 33.84 47.5599 30.54 47.5599 27.04C47.5599 24.42 47.0999 21.92 46.2799 19.58C43.1999 10.78 34.8599 4.47998 24.9999 4.47998C15.1399 4.47998 6.77985 10.82 3.71985 19.62C2.91985 21.94 2.43994 24.42 2.43994 27.02C2.43994 30.5 3.23989 33.78 4.63989 36.72C5.45989 38.42 6.45991 39.9999 7.65991 41.4399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 43.98C34 45.1 33.1 46 31.98 46H18.02C16.9 46 16 45.1 16 43.98V40.02C16 38.9 16.9 38 18.02 38H31.98C33.1 38 34 38.9 34 40.02V43.98Z" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47.5402 26.8799H41.6802" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.55994 26.8799H2.43994" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.7399 35.1001L5.45992 38.1599" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36.2004 7.45996L33.3003 12.5" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 4.47998V10.3199" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.7798 7.45996L16.7398 12.6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.54008 15.6602L10.74 18.6602" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.4199 35.2197L44.5999 38.1797" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.3801 29.2801C27.5801 31.1401 25.4202 32.02 23.5602 31.22C21.7002 30.42 20.8201 28.2601 21.6201 26.4001C22.4201 24.5401 24.5802 23.66 26.4402 24.46C28.3002 25.24 29.1801 27.4001 28.3801 29.2801Z" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.08 25.8398L41.12 17.4199" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

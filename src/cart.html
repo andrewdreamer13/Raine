@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="cart-page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Electro scooters have been created for your pleasure">
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.min.css">
+  <title>Cart</title>
+</head>
+
+<body>
+
+  @@include('parts/index/loader.html')
+  <div class="wrapper cart-wrapper">
+    <header class="header">
+
+      <a class="logo header__logo" href="index.html">
+        <svg class="logo__svg">
+          <use xlink:href="img/svg/sprite.svg#logo"></use>
+        </svg>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="index.html" data-text="Main">Main</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts" data-text="Contacts">Contacts </a></li>
+          <li class="nav__item"><a class="nav__link" href="learn-more.html" data-text="Learn&nbsp;more">Learn&nbsp;more</a></li>
+
+        </ul>
+
+        <div class="nav__svg-box">
+          <svg class="nav__svg">
+            <use xlink:href="img/svg/sprite.svg#logo"></use>
+          </svg>
+        </div>
+      </nav>
+
+      <div class="header-right">
+
+        <div class="language">
+
+          <button class="language__header">
+            <a class="language__link" href="#">En</a>
+            <svg class="language__svg">
+              <use xlink:href="img/svg/sprite.svg#arrow-down"></use>
+            </svg>
+          </button>
+
+          <ul class="language__list">
+            <li class="language__item" data-value="ua">
+              <a class="language__link" href="#">Ua</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="cart">
+
+          <svg class="cart__svg">
+            <use xlink:href="img/svg/sprite.svg#cart"></use>
+          </svg>
+
+          <div class="cart__counter">0</div>
+        </div>
+      </div>
+
+      <button class="burger">
+        <span class=" burger__span burger__span-one"></span>
+        <span class="burger__span burger__span-two"></span>
+        <span class="burger__span burger__span-three"></span>
+      </button>
+
+      <div class="line"></div>
+    </header>
+
+    <section class="add" id="cart">
+
+      <h2 class="title-center title-center--loaded"></h2>
+      <div class="decor-center decor-center--loaded"></div>
+
+      <div class="add__inner">
+
+        <div class="add__goods">
+
+          <div class="card" data-id="01">
+
+            <div class="card__content">
+
+              <picture>
+                <source srcset="img/card-1.webp" type="image/webp" alt="scooter image">
+                <img class="card__img" src="img/card-1.jpg" loading="lazy" width="200" height="200" alt="scooter image">
+              </picture>
+
+              <h3 class="card__title">Raine</h3>
+
+              <div class="card__characteristics">
+
+                <p class="card__characteristics-item">
+                  <span data-model>Model:</span>
+                  <span class="card__characteristics-mean" data-model-type>R-101</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-speed>Max speed:</span>
+                  <span class="card__characteristics-mean" data-speed-type>50km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-dist>Max distance:</span>
+                  <span class="card__characteristics-mean" data-dist-type>40km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-color>Color:</span>
+                  <span class="card__characteristics-mean" data-color-type>black</span>
+                </p>
+                <p class="card__characteristics-item">
+                  <span data-price>Price:</span>
+                  <span class="card__characteristics-mean" data-price-type>1500$</span>
+                </p>
+              </div>
+
+            </div>
+            
+            <div class="card__counter">
+              <button class="card__control" data-action="minus">-</button>
+              <div class="card__current" data-counter>1</div>
+              <button class="card__control" data-action="plus">+</button>
+            </div>
+
+            <button class="card__button" data-btn>+ add to cart</button>
+
+
+          </div>
+          <!--card -->
+
+          <div class="card" data-id="02">
+
+            <div class="card__content">
+              <picture>
+                <source srcset="img/card-1.webp" type="image/webp" alt="scooter image">
+                <img class="card__img" src="img/card-1.jpg" loading="lazy" width="200" height="200" alt="scooter image">
+              </picture>
+
+              <h3 class="card__title">Raine</h3>
+
+              <div class="card__characteristics">
+
+                <p class="card__characteristics-item">
+                  <span data-model>Model:</span>
+                  <span class="card__characteristics-mean" data-model-type>R-102</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-speed>Max speed:</span>
+                  <span class="card__characteristics-mean" data-speed-type>55km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-dist>Max distance:</span>
+                  <span class="card__characteristics-mean" data-dist-type>50km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-color>Color:</span>
+                  <span class="card__characteristics-mean" data-color-type>red</span>
+                </p>
+                <p class="card__characteristics-item">
+                  <span data-price>Price:</span>
+                  <span class="card__characteristics-mean" data-price-type>1600$</span>
+                </p>
+              </div>
+
+            </div>
+            <div class="card__counter">
+              <button class="card__control" data-action="minus">-</button>
+              <div class="card__current" data-counter>1</div>
+              <button class="card__control" data-action="plus">+</button>
+            </div>
+
+            <button class="card__button" data-btn>+ add to cart</button>
+
+
+          </div>
+          <!--card -->
+
+          <div class="card" data-id="03">
+
+            <div class="card__content">
+
+              <picture>
+                <source srcset="img/card-1.webp" type="image/webp" alt="scooter image">
+                <img class="card__img" src="img/card-1.jpg" loading="lazy" width="200" height="200" alt="scooter image">
+              </picture>
+
+              <h3 class="card__title">Raine</h3>
+
+              <div class="card__characteristics">
+
+                <p class="card__characteristics-item">
+                  <span data-model>Model:</span>
+                  <span class="card__characteristics-mean" data-model-type>R-103</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-speed>Max speed:</span>
+                  <span class="card__characteristics-mean" data-speed-type>60km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-dist>Max distance:</span>
+                  <span class="card__characteristics-mean" data-dist-type>60km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-color>Color:</span>
+                  <span class="card__characteristics-mean" data-color-type>blue</span>
+                </p>
+                <p class="card__characteristics-item">
+                  <span data-price>Price:</span>
+                  <span class="card__characteristics-mean" data-price-type>1700$</span>
+                </p>
+              </div>
+
+            </div>
+            <div class="card__counter">
+              <button class="card__control" data-action="minus">-</button>
+              <div class="card__current" data-counter>1</div>
+              <button class="card__control" data-action="plus">+</button>
+            </div>
+
+            <button class="card__button" data-btn>+ add to cart</button>
+
+
+
+          </div>
+          <!--card -->
+
+          <div class="card" data-id="04">
+
+            <div class="card__content">
+
+              <picture>
+                <source srcset="img/card-1.webp" type="image/webp" alt="scooter image">
+                <img class="card__img" src="img/card-1.jpg" loading="lazy" width="200" height="200" alt="scooter image">
+              </picture>
+
+              <h3 class="card__title">Raine</h3>
+
+              <div class="card__characteristics">
+
+                <p class="card__characteristics-item">
+                  <span data-model>Model:</span>
+                  <span class="card__characteristics-mean" data-model-type>R-104</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-speed>Max speed:</span>
+                  <span class="card__characteristics-mean" data-speed-type>65km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-dist>Max distance:</span>
+                  <span class="card__characteristics-mean" data-dist-type>70km</span>
+                </p>
+
+                <p class="card__characteristics-item">
+                  <span data-color>Color:</span>
+                  <span class="card__characteristics-mean" data-color-type>green</span>
+                </p>
+                <p class="card__characteristics-item">
+                  <span data-price>Price:</span>
+                  <span class="card__characteristics-mean" data-price-type>1800$</span>
+                </p>
+              </div>
+
+            </div>
+
+            <div class="card__counter">
+              <button class="card__control" data-action="minus">-</button>
+              <div class="card__current" data-counter>1</div>
+              <button class="card__control" data-action="plus">+</button>
+            </div>
+
+            <button class="card__button" data-btn>+ add to cart</button>
+
+          </div>
+          <!--card -->
+
+          <button class="add-goods-button">see more...</button>
+
+        </div>
+
+        <div class="add__cart-box">
+          <div class="card cart-card">
+
+            <h3 class="card__title">Your choice:</h3>
+
+            <div class="card__alert">The cart is empty</div>
+
+            <div class="card__receiver"></div>
+
+            <p class="card__total-price">
+              <span class="card__total-text">Total:</span>
+              <span class="card__total-num">0</span>
+              <span class="card__total-currency">$</span>
+            </p>
+
+            <div class="card__form-wrapper none">
+
+              <h3 class="card__title">Book an order</h3>
+
+              <form class="card__form" action="#">
+                <div class="card__input-wrapper">
+                  <input class="card__input" type="tel" placeholder="Your phone">
+                </div>
+                <button class="card__send-button" type="submit">order</button>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    @@include('parts/modal-window.html')
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__top">
+      
+          <a class="logo" href="#">
+            <svg class="logo__svg">
+              <use xlink:href="img/svg/sprite.svg#logo"></use>
+            </svg>
+          </a>
+        
+          <nav class="footer__nav">
+            <ul class="footer__nav__list">
+              <li class="footer__nav__item"><a class="footer__nav-link" href="index.html" data-text="Main">Main</a></li>
+              <li class="footer__nav__item"><a class="footer__nav-link" href="#cart" data-text="Cart">Cart</a></li>
+              <li class="footer__nav__item"><a class="footer__nav-link" href="learn-more.html" data-text="Learn&nbsp;more">Learn&nbsp;more</a></li>
+            </ul>
+          </nav>
+      
+          <div class="social">
+            <a class="social__link" href="#">
+               <svg class="social__svg">
+            <use xlink:href="img/svg/sprite.svg#facebook"></use>
+          </svg>
+            </a>
+      
+            <a class="social__link" href="#">
+              <svg class="social__svg">
+           <use xlink:href="img/svg/sprite.svg#instagram"></use>
+         </svg>
+           </a>
+      
+           <a class="social__link" href="#">
+            <svg class="social__svg">
+         <use xlink:href="img/svg/sprite.svg#twitter"></use>
+       </svg>
+         </a>
+          </div>
+        </div>
+      
+      
+        <div class="footer__bottom">
+      
+          <ul class="footer__bottom-list">
+            <li class="footer__bottom-item">
+              <span class="footer__rights">© 2019 Raine One</span>
+            </li>
+      
+            <li class="footer__bottom-item">
+              <a class="footer__link" href="#" data-text="Privacy&nbsp;policy">Privacy&nbsp;policy</a>
+            </li>
+      
+            <li class="footer__bottom-item">
+              <a class="footer__link" href="#" data-text="Term&nbsp;of&nbsp;service">Term&nbsp;of&nbsp;service</a>
+            </li>
+          </ul>
+         
+        </div>
+      
+      </div>
+      <span id="contacts"></span>
+      </footer>
+  </div>
+ 
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
